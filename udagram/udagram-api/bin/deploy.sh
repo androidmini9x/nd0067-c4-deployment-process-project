@@ -1,6 +1,6 @@
- eb list
- eb use Udagram-api-dev-env
- eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+eb list
+eb use Udagram-api-dev-env
+eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
     AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
     AWS_BUCKET=$AWS_BUCKET \
     AWS_PROFILE=$AWS_PROFILE \
@@ -11,4 +11,4 @@
     POSTGRES_DB=$POSTGRES_DB \
     URL=$URL \
     JWT_SECRET=$JWT_SECRET
- eb deploy
+eb deploy
