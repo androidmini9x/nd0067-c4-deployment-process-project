@@ -19,6 +19,9 @@ LINK OF APP: [HERE](http://myawsbucket-751397240851.s3-website-us-east-1.amazona
 **DEPLOY**
 ![APP](DEPLOY.png)
 
+**Environment Variables**
+![APP](circle_ci_env.png)
+
 
 ### Cloud Architect
 
